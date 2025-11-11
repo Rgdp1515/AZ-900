@@ -1,0 +1,48 @@
+## What is cloud computing? ##
+- The delivery of computing services over the internet, including:
+    - Common IT infrastructure such as VMs, storage, databases, and networking
+    - Expands to include IoT, ML, and AI
+## Shared responsibility model ##
+- Traditional corporate datacenter
+      - The company is responsible for maintaining the physical space, ensuring security, and maintaining or replacing the servers.
+      - The IT department is responsible for maintaining all the infrastructure and software, system patches
+- With shared responsibility model
+      - Physical security, power, cooling, and network connectivity are the responsibility of the CSP.
+      - The consumer is responsible for the data and information stored in the cloud, including access security.
+Example: Cloud SQL database:
+      - CSP is responsible for the database
+      - Consumer responsible for the data being ingested
+          - Deploying a VM and installing SQL, you're responsible for patches and updates
+The Spectrum:
+  - Infrastructure as a Service (IaaS)
+    - most responsiblity on the consumer, CSP is responsible for physical security, power, connectivity.
+  - Software as a Service (SaaS)
+    - most responsibility on the CSP.
+  - Platform as a Service (PaaS)
+    - middle ground
+
+## Define cloud models ##
+- Private cloud 
+  A cloud that is used by a single entity. High level of control, higher cost.
+- Public cloud
+  Built, controlled, and maintained by a third-party provider. Purchase services, access and use resources.
+- Hybrid cloud
+  Uses both public and private clouds, interconnected. Used for temporary demand, flexibility to choose where data is stored.
+- Multi-cloud
+  Different features from different CSPs. Manage resources and security in all environments.
+- Azure Arc
+  A set of technologies that helps manage your cloud environment. Any cloud environment.
+- Azure VMware Solution
+  Private cloud environment. Seamless integration to public or hybrid cloud.
+
+## Consumtion-based model ##
+CapEx and OpEx
+- Capex
+  Typically one-time, tangible resources.
+- OpEx
+  Spending money on services or products over time.
+Cloud computing falls under OpEx, benefits:
+- No upfront costs
+- No infrastructure costs
+- Flexibility
+Cloud computing is a way to rent compute power and storage
