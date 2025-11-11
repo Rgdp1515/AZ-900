@@ -1,0 +1,49 @@
+## High availability and scalability in the cloud ##
+ Two biggest considerations are uptime and demand
+
+## High availability ##
+  This is usually achieved through redundancy
+SLA - agreement between providers and consumers requiring minimumm levels of availability
+ % Up Time (99%-99.99%) - big difference in between them
+ Longest Down time acceptable
+
+## Scalability ##
+  Refers to the ability to adjust resources to meet demand.
+  Ensures you are not overpaying for services, you pay for what you use.
+- Generally vertical and horizontal
+  - Vertical: focuses on increasing or decreasing the capabilities of resources
+You can add more CPUs or RAM to a VM if you needed more processing power
+  - Horizontal: focuses on adding or subtracting the number of resources
+You can add VMs or containers to supplement demand.
+
+## Reliability and Predictability ##
+
+## Reliability ##
+  The abillity of a system to recover from failures and continue to functions.
+  The cloud is decentralized by design, supporting reliability.
+
+## Predicability ##
+  Can be performance or cost.
+ - Performance: focuses on resources needed.
+    - Autoscaling, load balancing, high availability
+ - Cost: forecasting of the cloud spend.
+    - Reail-time monitoring, predict future costs from patterns 
+
+## Security and governance ##
+  Set templates ensure resources meet corporate standards and government regulatory requirements. 
+  Cloud-based auditing flags non-compliance.
+  By nature, CSPs are well suited for network security
+
+## Manageability in the cloud ##
+
+  Management OF the cloud: managing your cloud resources
+  - scale resources as needed
+  - use preconfigured templates
+  - monitor the health of resources
+  - receive automatic alerts, real-time performance awareness
+
+  Management IN the cloud: managing your cloud environment
+  - using a web portal
+  - using CLI
+  - using APIs
+  - using PowerShell
