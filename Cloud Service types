@@ -1,0 +1,27 @@
+## IaaS ##
+The most flexible category, as it provides the maximum amount of control for your resources.
+- CSP is responsible for hardware, network connectivity, and physical security.
+- You are responsible for the rest: OS installation, configuration, maintenance; network configuration;
+database and storage configuration.
+- You rent the hardware
+Where IaaS makes sense:
+- Lift-and-shift migration: moving from on-prem datacenter to a similar cloud infrastructure
+- Testing and development: established configurations you need to replicate, with complete control
+
+## PaaS ##
+  Middle ground between renting space in a datacetner (IaaS) and paying for a complete solution (SaaS)
+- CSP maintains physical infrastructure and security, and connection to the internet. They maintain OS,
+dev tools, business intelligence services.
+- You maintain updates, patches, refreshes.
+Where PaaS makes sense:
+- Development frameworks: developers use built-in software components
+- Analytics or BI: tools provided allow analysis and actions on business decisions
+
+## SaaS ##
+  The most complete model. essentially renting a fully developed application. Easiest to set up.
+- CSP has most responsibility.
+- You are only responsible for the data you put in the system, the devices you connect, the users that have access.
+Where SaaS makes sense:
+- Email and messaging
+- Business productivity applications
+- Finance and Expense tracking
